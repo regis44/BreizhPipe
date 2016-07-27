@@ -192,13 +192,13 @@ const USB_Descriptor_String_t LanguageString =
 const USB_Descriptor_String_t ProductString =
 {
 	.Header                 = {.Size = USB_STRING_LEN(14), .Type = DTYPE_String},
-	.UnicodeString          = L"CoolPipe  "
+	.UnicodeString          = L"BreizhPipe  "
 };
 
 const USB_Descriptor_String_t ManufNameString = 
 {
 	.Header					= {.Size = USB_STRING_LEN(20), .Type = DTYPE_String},
-	.UnicodeString			= L"CoolPipe        "
+	.UnicodeString			= L"BreizhPipe        "
 };
 
 /** This function is called by the library when in device mode, and must be overridden (see LUFA library "USB Descriptors"

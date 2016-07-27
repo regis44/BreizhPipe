@@ -268,16 +268,16 @@
  331               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 Endpoint_AVR8.c
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cchKQTgO.s:2      *ABS*:0000003f __SREG__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cchKQTgO.s:3      *ABS*:0000003e __SP_H__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cchKQTgO.s:4      *ABS*:0000003d __SP_L__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cchKQTgO.s:5      *ABS*:00000034 __CCP__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cchKQTgO.s:6      *ABS*:00000000 __tmp_reg__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cchKQTgO.s:7      *ABS*:00000001 __zero_reg__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cchKQTgO.s:19     .text.Endpoint_ConfigureEndpoint_Prv:00000000 Endpoint_ConfigureEndpoint_Prv
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cchKQTgO.s:63     .text.Endpoint_ClearEndpoints:00000000 Endpoint_ClearEndpoints
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cchKQTgO.s:107    .text.Endpoint_ClearStatusStage:00000000 Endpoint_ClearStatusStage
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cchKQTgO.s:171    .text.Endpoint_WaitUntilReady:00000000 Endpoint_WaitUntilReady
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cciFNJUz.s:2      *ABS*:0000003f __SREG__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cciFNJUz.s:3      *ABS*:0000003e __SP_H__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cciFNJUz.s:4      *ABS*:0000003d __SP_L__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cciFNJUz.s:5      *ABS*:00000034 __CCP__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cciFNJUz.s:6      *ABS*:00000000 __tmp_reg__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cciFNJUz.s:7      *ABS*:00000001 __zero_reg__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cciFNJUz.s:19     .text.Endpoint_ConfigureEndpoint_Prv:00000000 Endpoint_ConfigureEndpoint_Prv
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cciFNJUz.s:63     .text.Endpoint_ClearEndpoints:00000000 Endpoint_ClearEndpoints
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cciFNJUz.s:107    .text.Endpoint_ClearStatusStage:00000000 Endpoint_ClearStatusStage
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cciFNJUz.s:171    .text.Endpoint_WaitUntilReady:00000000 Endpoint_WaitUntilReady
 
 UNDEFINED SYMBOLS
 USB_ControlRequest

@@ -111,7 +111,7 @@ FORMAT = ihex
 
 
 # Target file name (without extension).
-TARGET = coolpipe
+TARGET = breizhpipe
 
 
 # Object files directory

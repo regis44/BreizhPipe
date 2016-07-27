@@ -71,13 +71,13 @@
  104               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 USBTask.c
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccZF3VUC.s:2      *ABS*:0000003f __SREG__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccZF3VUC.s:3      *ABS*:0000003e __SP_H__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccZF3VUC.s:4      *ABS*:0000003d __SP_L__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccZF3VUC.s:5      *ABS*:00000034 __CCP__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccZF3VUC.s:6      *ABS*:00000000 __tmp_reg__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccZF3VUC.s:7      *ABS*:00000001 __zero_reg__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccZF3VUC.s:19     .text.USB_USBTask:00000000 USB_USBTask
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccA7Iv5Q.s:2      *ABS*:0000003f __SREG__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccA7Iv5Q.s:3      *ABS*:0000003e __SP_H__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccA7Iv5Q.s:4      *ABS*:0000003d __SP_L__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccA7Iv5Q.s:5      *ABS*:00000034 __CCP__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccA7Iv5Q.s:6      *ABS*:00000000 __tmp_reg__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccA7Iv5Q.s:7      *ABS*:00000001 __zero_reg__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccA7Iv5Q.s:19     .text.USB_USBTask:00000000 USB_USBTask
                             *COM*:00000001 USB_IsInitialized
                             *COM*:00000008 USB_ControlRequest
 

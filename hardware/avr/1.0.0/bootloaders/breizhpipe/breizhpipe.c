@@ -34,7 +34,7 @@
  */
 
 #define  INCLUDE_FROM_CATERINA_C
-#include "coolpipe.h"
+#include "breizhpipe.h"
 
 /** Contains the current baud rate and other settings of the first virtual serial port. This must be retained as some
  *  operating systems will not open the port unless the settings can be set successfully.

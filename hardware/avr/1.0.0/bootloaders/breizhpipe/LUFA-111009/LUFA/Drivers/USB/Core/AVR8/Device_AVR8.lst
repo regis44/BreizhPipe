@@ -52,12 +52,12 @@
   85               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 Device_AVR8.c
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccCGJe6M.s:2      *ABS*:0000003f __SREG__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccCGJe6M.s:3      *ABS*:0000003e __SP_H__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccCGJe6M.s:4      *ABS*:0000003d __SP_L__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccCGJe6M.s:5      *ABS*:00000034 __CCP__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccCGJe6M.s:6      *ABS*:00000000 __tmp_reg__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccCGJe6M.s:7      *ABS*:00000001 __zero_reg__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccCGJe6M.s:19     .text.USB_Device_SendRemoteWakeup:00000000 USB_Device_SendRemoteWakeup
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccFCzjTe.s:2      *ABS*:0000003f __SREG__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccFCzjTe.s:3      *ABS*:0000003e __SP_H__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccFCzjTe.s:4      *ABS*:0000003d __SP_L__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccFCzjTe.s:5      *ABS*:00000034 __CCP__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccFCzjTe.s:6      *ABS*:00000000 __tmp_reg__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccFCzjTe.s:7      *ABS*:00000001 __zero_reg__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccFCzjTe.s:19     .text.USB_Device_SendRemoteWakeup:00000000 USB_Device_SendRemoteWakeup
 
 NO UNDEFINED SYMBOLS
