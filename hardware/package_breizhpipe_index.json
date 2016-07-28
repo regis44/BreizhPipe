@@ -22,8 +22,8 @@
           "checksum": "SHA-256:57ab97400c0677cefeb55cf968bf774cd9e289b880c28310f6a16f8d8f684e4b",
           "size": "426984",
           "boards": [
-            {"name": "BreizhPipe"},
-          ]
+            {"name": "BreizhPipe"}
+          ],
           "toolsDependencies": [
             {
               "packager": "arduino",
