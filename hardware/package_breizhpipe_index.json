@@ -17,10 +17,10 @@
           "help": {
             "online": ""
           },
-          "url": "https://github.com/regis44/BreizhPipe/raw/master/hardware/avr.tar.gz",
-          "archiveFileName": "avr.tar.gz",
-          "checksum": "SHA-256:bf944399193aa0ff4bea21aae454d69122929cb2fc0a5809019d19e10c3bd769",
-          "size": "4264423",
+          "url": "https://github.com/regis44/BreizhPipe/raw/master/hardware/breizhpipe-1.0.0.tar.gz",
+          "archiveFileName": "breizhpipe-1.0.0.tar.gz",
+          "checksum": "SHA-256:5b9de979c84a3dfb4836c4ed45fdfa690d0b330c522f4ca7c1c97e51ca77535",
+          "size": "4258871",
           "boards": [
             {"name": "BreizhPipe"}
           ],
