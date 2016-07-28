@@ -23,7 +23,7 @@
           "size": "426984",
           "boards": [
             {"name": "BreizhPipe"},
-          ],
+          ]
           "toolsDependencies": [
             {
               "packager": "arduino",
