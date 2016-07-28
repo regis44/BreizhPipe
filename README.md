@@ -1,1 +1,2 @@
-# Electronic Bag Pipe Project
+# BreizhPipe Project
+Electronic Bagpipe Project
