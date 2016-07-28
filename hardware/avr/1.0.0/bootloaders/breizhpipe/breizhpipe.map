@@ -485,53 +485,53 @@ LOAD /usr/local/CrossPack-AVR-20100115/lib/gcc/avr/4.3.3/avr5/libgcc.a
  *(.fini0)
                 0x00007f46                _etext = .
 
-.data           0x00800100       0xae load address 0x00007f46
+.data           0x00800100       0xb4 load address 0x00007f46
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
- .data          0x00800100       0x16 breizhpipe.o
-                0x0080010c                bootKeyPtr
-                0x0080010b                bootKey
- .data          0x00800116       0x98 Descriptors.o
-                0x00800186                ManufNameString
-                0x00800166                LanguageString
-                0x00800116                DeviceDescriptor
-                0x0080016a                ProductString
-                0x00800128                ConfigurationDescriptor
+ .data          0x00800100       0x14 breizhpipe.o
+                0x0080010a                bootKeyPtr
+                0x00800109                bootKey
+ .data          0x00800114       0xa0 Descriptors.o
+                0x00800188                ManufNameString
+                0x00800164                LanguageString
+                0x00800114                DeviceDescriptor
+                0x00800168                ProductString
+                0x00800126                ConfigurationDescriptor
  *(.data*)
  *(.rodata)
  *(.rodata*)
  *(.gnu.linkonce.d*)
-                0x008001ae                . = ALIGN (0x2)
-                0x008001ae                _edata = .
-                0x008001ae                PROVIDE (__data_end, .)
+                0x008001b4                . = ALIGN (0x2)
+                0x008001b4                _edata = .
+                0x008001b4                PROVIDE (__data_end, .)
 
-.bss            0x008001ae       0x19
-                0x008001ae                PROVIDE (__bss_start, .)
+.bss            0x008001b4       0x19
+                0x008001b4                PROVIDE (__bss_start, .)
  *(.bss)
- .bss           0x008001ae        0xd breizhpipe.o
-                0x008001ae                TxLEDPulse
-                0x008001b0                RxLEDPulse
-                0x008001b2                Timeout
-                0x008001b4                resetTimeout
+ .bss           0x008001b4        0xd breizhpipe.o
+                0x008001b4                TxLEDPulse
+                0x008001b6                RxLEDPulse
+                0x008001b8                Timeout
+                0x008001ba                resetTimeout
  *(.bss*)
  *(COMMON)
- COMMON         0x008001bb        0x2 breizhpipe.o
-                0x008001bb                LLEDPulse
- COMMON         0x008001bd        0x1 LUFA-111009/LUFA/Drivers/USB/Core/DeviceStandardReq.o
-                0x008001bd                USB_Device_ConfigurationNumber
- COMMON         0x008001be        0x9 LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
-                0x008001be                USB_IsInitialized
-                0x008001bf                USB_ControlRequest
-                0x008001c7                PROVIDE (__bss_end, .)
+ COMMON         0x008001c1        0x2 breizhpipe.o
+                0x008001c1                LLEDPulse
+ COMMON         0x008001c3        0x1 LUFA-111009/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                0x008001c3                USB_Device_ConfigurationNumber
+ COMMON         0x008001c4        0x9 LUFA-111009/LUFA/Drivers/USB/Core/USBTask.o
+                0x008001c4                USB_IsInitialized
+                0x008001c5                USB_ControlRequest
+                0x008001cd                PROVIDE (__bss_end, .)
                 0x00007f46                __data_load_start = LOADADDR (.data)
-                0x00007ff4                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00007ffa                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008001c7        0x0
-                0x008001c7                PROVIDE (__noinit_start, .)
+.noinit         0x008001cd        0x0
+                0x008001cd                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x008001c7                PROVIDE (__noinit_end, .)
-                0x008001c7                _end = .
-                0x008001c7                PROVIDE (__heap_start, .)
+                0x008001cd                PROVIDE (__noinit_end, .)
+                0x008001cd                _end = .
+                0x008001cd                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)

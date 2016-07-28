@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/regis44/BreizhPipe/raw/master/hardware/avr.tar.gz",
           "archiveFileName": "avr.tar.gz",
-          "checksum": "SHA-256:57ab97400c0677cefeb55cf968bf774cd9e289b880c28310f6a16f8d8f684e4b",
-          "size": "426984",
+          "checksum": "SHA-256:bf944399193aa0ff4bea21aae454d69122929cb2fc0a5809019d19e10c3bd769",
+          "size": "4264423",
           "boards": [
             {"name": "BreizhPipe"}
           ],

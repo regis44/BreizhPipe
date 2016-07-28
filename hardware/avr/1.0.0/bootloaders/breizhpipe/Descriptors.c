@@ -192,13 +192,22 @@ const USB_Descriptor_String_t LanguageString =
 const USB_Descriptor_String_t ProductString =
 {
 	.Header                 = {.Size = USB_STRING_LEN(14), .Type = DTYPE_String},
-	.UnicodeString          = L"BreizhPipe  "
+    
+    #if DEVICE_PID == 0x9210
+    .UnicodeString          = L"BreizhPipe    "
+    #else
+    .UnicodeString			= L"USB IO board  "
+    #endif
 };
 
 const USB_Descriptor_String_t ManufNameString = 
 {
 	.Header					= {.Size = USB_STRING_LEN(20), .Type = DTYPE_String},
-	.UnicodeString			= L"BreizhPipe        "
+    #if DEVICE_VID == 0x1B4F
+    .UnicodeString			= L"BreizhPipe"
+    #else
+    .UnicodeString			= L"Unknown             "
+    #endif
 };
 
 /** This function is called by the library when in device mode, and must be overridden (see LUFA library "USB Descriptors"

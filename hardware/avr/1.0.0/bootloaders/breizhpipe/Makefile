@@ -52,7 +52,7 @@ VID = 0x2341
 
 # USB product ID (PID)
 # official Leonardo PID = 0x0036
-PID = 0x0036
+PID = 0x9210
 
 # MCU name
 MCU = atmega32u4

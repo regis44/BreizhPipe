@@ -105,7 +105,7 @@
  116 0006 00        		.byte	0
  117 0007 08        		.byte	8
  118 0008 4123      		.word	9025
- 119 000a 3600      		.word	54
+ 119 000a 1092      		.word	-28144
  120 000c 0100      		.word	1
  121 000e 02        		.byte	2
  122 000f 01        		.byte	1
@@ -191,22 +191,22 @@
  208 0068 6500      		.string	"e"
  209 006a 2000      		.string	" "
  210 006c 2000      		.string	" "
- 211 006e 00        		.string	""
- 212 006f 00        		.string	""
- 213               	.global	ManufNameString
- 216               	ManufNameString:
- 217 0070 2A        		.byte	42
- 218 0071 03        		.byte	3
- 219 0072 4200      		.string	"B"
- 220 0074 7200      		.string	"r"
- 221 0076 6500      		.string	"e"
- 222 0078 6900      		.string	"i"
- 223 007a 7A00      		.string	"z"
- 224 007c 6800      		.string	"h"
- 225 007e 5000      		.string	"P"
- 226 0080 6900      		.string	"i"
- 227 0082 7000      		.string	"p"
- 228 0084 6500      		.string	"e"
+ 211 006e 2000      		.string	" "
+ 212 0070 2000      		.string	" "
+ 213 0072 00        		.string	""
+ 214 0073 00        		.string	""
+ 215               	.global	ManufNameString
+ 218               	ManufNameString:
+ 219 0074 2A        		.byte	42
+ 220 0075 03        		.byte	3
+ 221 0076 5500      		.string	"U"
+ 222 0078 6E00      		.string	"n"
+ 223 007a 6B00      		.string	"k"
+ 224 007c 6E00      		.string	"n"
+ 225 007e 6F00      		.string	"o"
+ 226 0080 7700      		.string	"w"
+ 227 0082 6E00      		.string	"n"
+ 228 0084 2000      		.string	" "
  229 0086 2000      		.string	" "
  230 0088 2000      		.string	" "
  231 008a 2000      		.string	" "
@@ -215,23 +215,27 @@
  234 0090 2000      		.string	" "
  235 0092 2000      		.string	" "
  236 0094 2000      		.string	" "
- 237 0096 00        		.string	""
- 238 0097 00        		.string	""
- 263               	.Letext0:
+ 237 0096 2000      		.string	" "
+ 238 0098 2000      		.string	" "
+ 239 009a 2000      		.string	" "
+ 240 009c 2000      		.string	" "
+ 241 009e 00        		.string	""
+ 242 009f 00        		.string	""
+ 267               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 Descriptors.c
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccJeLYNN.s:2      *ABS*:0000003f __SREG__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccJeLYNN.s:3      *ABS*:0000003e __SP_H__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccJeLYNN.s:4      *ABS*:0000003d __SP_L__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccJeLYNN.s:5      *ABS*:00000034 __CCP__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccJeLYNN.s:6      *ABS*:00000000 __tmp_reg__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccJeLYNN.s:7      *ABS*:00000001 __zero_reg__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccJeLYNN.s:19     .text.CALLBACK_USB_GetDescriptor:00000000 CALLBACK_USB_GetDescriptor
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccJeLYNN.s:110    .data:00000000 DeviceDescriptor
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccJeLYNN.s:128    .data:00000012 ConfigurationDescriptor
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccJeLYNN.s:189    .data:00000050 LanguageString
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccJeLYNN.s:196    .data:00000054 ProductString
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//ccJeLYNN.s:216    .data:00000070 ManufNameString
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc12VGzJ.s:2      *ABS*:0000003f __SREG__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc12VGzJ.s:3      *ABS*:0000003e __SP_H__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc12VGzJ.s:4      *ABS*:0000003d __SP_L__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc12VGzJ.s:5      *ABS*:00000034 __CCP__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc12VGzJ.s:6      *ABS*:00000000 __tmp_reg__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc12VGzJ.s:7      *ABS*:00000001 __zero_reg__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc12VGzJ.s:19     .text.CALLBACK_USB_GetDescriptor:00000000 CALLBACK_USB_GetDescriptor
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc12VGzJ.s:110    .data:00000000 DeviceDescriptor
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc12VGzJ.s:128    .data:00000012 ConfigurationDescriptor
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc12VGzJ.s:189    .data:00000050 LanguageString
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc12VGzJ.s:196    .data:00000054 ProductString
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc12VGzJ.s:218    .data:00000074 ManufNameString
 
 UNDEFINED SYMBOLS
 __do_copy_data

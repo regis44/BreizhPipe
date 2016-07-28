@@ -265,9 +265,9 @@
  279               	.LFE100:
  281               		.data
  282               	.LC0:
- 283 0000 4252 4549 		.string	"BREIZHPIPE"
- 283      5A48 5049 
- 283      5045 00
+ 283 0000 4341 5445 		.string	"CATERINA"
+ 283      5249 4E41 
+ 283      00
  284               		.section	.text.CDC_Task,"ax",@progbits
  285               	.global	CDC_Task
  287               	CDC_Task:
@@ -1633,51 +1633,51 @@
  1662               	.global	bootKey
  1663               		.data
  1666               	bootKey:
- 1667 000b 77        		.byte	119
+ 1667 0009 77        		.byte	119
  1668               	.global	bootKeyPtr
  1671               	bootKeyPtr:
- 1672 000c 0008      		.word	2048
+ 1672 000a 0008      		.word	2048
  1675               	LineEncoding:
- 1676 000e 00        		.byte	0
- 1677 000f 00        		.byte	0
- 1678 0010 00        		.byte	0
- 1679 0011 00        		.byte	0
- 1680 0012 00        		.byte	0
- 1681 0013 00        		.byte	0
- 1682 0014 08        		.byte	8
+ 1676 000c 00        		.byte	0
+ 1677 000d 00        		.byte	0
+ 1678 000e 00        		.byte	0
+ 1679 000f 00        		.byte	0
+ 1680 0010 00        		.byte	0
+ 1681 0011 00        		.byte	0
+ 1682 0012 08        		.byte	8
  1683               		.lcomm sketchPresent,1
  1686               	RunBootloader:
- 1687 0015 01        		.byte	1
+ 1687 0013 01        		.byte	1
  1688               		.lcomm CurrAddress,4
  1689               		.comm LLEDPulse,2,1
  1770               	.Letext0:
 DEFINED SYMBOLS
                             *ABS*:00000000 breizhpipe.c
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:2      *ABS*:0000003f __SREG__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:3      *ABS*:0000003e __SP_H__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:4      *ABS*:0000003d __SP_L__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:5      *ABS*:00000034 __CCP__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:6      *ABS*:00000000 __tmp_reg__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:7      *ABS*:00000001 __zero_reg__
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:19     .text.StartSketch:00000000 StartSketch
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:59     .text.__vector_17:00000000 __vector_17
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:1642   .bss:00000000 TxLEDPulse
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:1648   .bss:00000002 RxLEDPulse
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:1660   .bss:00000006 resetTimeout
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:1654   .bss:00000004 Timeout
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:154    .text.FetchNextCommandByte:00000000 FetchNextCommandByte
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:215    .text.WriteNextResponseByte:00000000 WriteNextResponseByte
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:287    .text.CDC_Task:00000000 CDC_Task
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:1683   .bss:00000009 CurrAddress
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:1281   .text.EVENT_USB_Device_ControlRequest:00000000 EVENT_USB_Device_ControlRequest
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:1675   .data:0000000e LineEncoding
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:1357   .text.EVENT_USB_Device_ConfigurationChanged:00000000 EVENT_USB_Device_ConfigurationChanged
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:1395   .text.main:00000000 main
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:2      *ABS*:0000003f __SREG__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:3      *ABS*:0000003e __SP_H__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:4      *ABS*:0000003d __SP_L__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:5      *ABS*:00000034 __CCP__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:6      *ABS*:00000000 __tmp_reg__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:7      *ABS*:00000001 __zero_reg__
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:19     .text.StartSketch:00000000 StartSketch
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:59     .text.__vector_17:00000000 __vector_17
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:1642   .bss:00000000 TxLEDPulse
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:1648   .bss:00000002 RxLEDPulse
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:1660   .bss:00000006 resetTimeout
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:1654   .bss:00000004 Timeout
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:154    .text.FetchNextCommandByte:00000000 FetchNextCommandByte
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:215    .text.WriteNextResponseByte:00000000 WriteNextResponseByte
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:287    .text.CDC_Task:00000000 CDC_Task
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:1683   .bss:00000009 CurrAddress
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:1281   .text.EVENT_USB_Device_ControlRequest:00000000 EVENT_USB_Device_ControlRequest
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:1675   .data:0000000c LineEncoding
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:1357   .text.EVENT_USB_Device_ConfigurationChanged:00000000 EVENT_USB_Device_ConfigurationChanged
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:1395   .text.main:00000000 main
                              .bss:00000008 sketchPresent
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:1666   .data:0000000b bootKey
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:1686   .data:00000015 RunBootloader
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:1666   .data:00000009 bootKey
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:1686   .data:00000013 RunBootloader
                             *COM*:00000002 LLEDPulse
-/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cc2eIIPR.s:1671   .data:0000000c bootKeyPtr
+/var/folders/3q/k8wxkc617931kmc7mm11b3gc0000gn/T//cczHPtDJ.s:1671   .data:0000000a bootKeyPtr
 
 UNDEFINED SYMBOLS
 __eerd_byte_m32u4
