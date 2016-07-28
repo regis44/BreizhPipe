@@ -1,2 +1,0 @@
-# BreizhPipe
-Electronic bagpipe project
