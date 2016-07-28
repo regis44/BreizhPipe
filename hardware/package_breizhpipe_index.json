@@ -19,7 +19,7 @@
           },
           "url": "https://github.com/regis44/BreizhPipe/raw/master/hardware/breizhpipe-1.0.0.tar.gz",
           "archiveFileName": "breizhpipe-1.0.0.tar.gz",
-          "checksum": "SHA-256:5b9de979c84a3dfb4836c4ed45fdfa690d0b330c522f4ca7c1c97e51ca77535",
+          "checksum": "SHA-256:b5b9de979c84a3dfb4836c4ed45fdfa690d0b330c522f4ca7c1c97e51ca77535",
           "size": "4258871",
           "boards": [
             {"name": "BreizhPipe"}
