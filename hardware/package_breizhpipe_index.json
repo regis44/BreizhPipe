@@ -36,6 +36,34 @@
               "version": "6.0.1-arduino5"
             }
           ]
+        },
+	{
+          "name": "BreizhPipe",
+          "architecture": "avr",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/regis44/BreizhPipe/raw/master/hardware/breizhpipe-1.0.1.tar.gz",
+          "archiveFileName": "breizhpipe-1.0.1.tar.gz",
+          "checksum": "SHA-256:c1ab2503c992d6b7d261a2288318eeb21a800a07376256eda1b742651b0beaa2",
+          "size": "4266734",
+          "boards": [
+            {"name": "BreizhPipe"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
         }
        ],
       "tools": []
