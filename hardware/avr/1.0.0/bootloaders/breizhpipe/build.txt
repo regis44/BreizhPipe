@@ -1,2 +1,0 @@
-make clean
-make PID=0x9210 F_CPU=16000000
